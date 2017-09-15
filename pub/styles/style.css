@@ -4,7 +4,7 @@
   .centered__big {
     position: relative;
     margin: 0 auto;
-    width: 1000px;
+    width: 1080px;
   }
   .centered__small {
     position: relative;
@@ -34,14 +34,21 @@
     text-decoration: none;
     text-align: center;
   }
+  .title-block {
+    margin-bottom: 54px;
+    font: 36px 'robotobold';
+    color: #000;
+    text-align: center;
+  }
 }
 a,
 a:hover,
 li,
 img,
 input,
-textarea {
-  transition: all 0.5s ease-in-out;
+textarea,
+.goods__send-inquiry {
+  transition: all 0.2s ease-in-out;
 }
 body {
   cursor: default;
@@ -166,6 +173,122 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .subblock__about {
+    padding: 52px 0;
+    height: auto;
+    overflow: hidden;
+    background: url('../img/about-bg.png');
+  }
+  .subblock__about__sertificates {
+    margin-left: 38px;
+    float: left;
+    width: 510px;
+  }
+  .subblock__about__sertificates ul {
+    height: auto;
+  }
+  .subblock__about__sertificates ul li {
+    margin-right: 76px;
+    float: left;
+    width: 215px;
+  }
+  .subblock__about__sertificates ul li:last-child {
+    margin-right: 0;
+  }
+  .subblock__about__sertificates ul li img {
+    margin-bottom: 34px;
+    display: block;
+    width: 215px;
+    height: 308px;
+  }
+  .subblock__about__sertificates ul li p {
+    font: 16px 'robotobold';
+    text-align: center;
+    color: #131e22;
+  }
+  .subblock__about__content {
+    float: right;
+    width: 532px;
+  }
+  .subblock__about__content h4 {
+    font: 26px 'robotobold';
+    color: #000;
+    margin-bottom: 10px;
+  }
+  .subblock__about__content p {
+    font: 16px 'robotolight';
+    line-height: 28px;
+    color: #000;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .subblock__popular-goods {
+    padding: 90px 0 40px 0;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+  }
+  .goods ul li {
+    margin-bottom: 50px;
+    margin-right: 97px;
+    position: relative;
+    float: left;
+    width: 292px;
+    height: 560px;
+    text-align: center;
+  }
+  .goods ul li:nth-child(3n+3) {
+    margin-right: 0;
+  }
+  .goods ul li img {
+    margin-bottom: 30px;
+    display: block;
+  }
+  .goods ul li p {
+    margin-bottom: 4px;
+    font: 16px 'robotolight';
+    color: #131e22;
+  }
+  .goods ul li p span {
+    padding-right: 4px;
+    font-family: 'robotobold';
+  }
+  .goods ul li a,
+  .goods ul li a:hover {
+    display: block;
+    font: 20px 'robotolight';
+    line-height: 24px;
+    color: #000;
+    text-decoration: none;
+  }
+  .goods__send-inquiry {
+    position: absolute;
+    bottom: 0;
+    left: 17px;
+    margin: 0 auto;
+    display: block;
+    width: 255px;
+    height: 59px;
+    background: #bf3737;
+    border-radius: 15px;
+    font: 16px 'robotolight' !important;
+    color: #fefefe !important;
+    text-transform: uppercase;
+    line-height: 59px !important;
+    text-decoration: none;
+  }
+  .goods__send-inquiry:hover {
+    font-family: 'robotobold' !important;
+    background: #db3f3f;
+  }
+  .goods__line {
+    margin: 20px auto;
+    width: 100px;
+    height: 1px;
+    background: #d7d7d7;
+  }
+}
+@media only screen and (min-width: 1024px) {
   .subblock__services {
     padding: 74px 0 64px 0;
     height: auto;
@@ -233,54 +356,5 @@ a {
   .subblock__services__content div:nth-child(2) {
     float: right;
     width: 550px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .subblock__about {
-    padding: 52px 0;
-    height: auto;
-    overflow: hidden;
-    background: url('../img/about-bg.png');
-  }
-  .subblock__about__sertificates {
-    margin-left: 38px;
-    float: left;
-    width: 510px;
-  }
-  .subblock__about__sertificates ul {
-    height: auto;
-  }
-  .subblock__about__sertificates ul li {
-    margin-right: 76px;
-    float: left;
-    width: 215px;
-  }
-  .subblock__about__sertificates ul li:last-child {
-    margin-right: 0;
-  }
-  .subblock__about__sertificates ul li img {
-    margin-bottom: 34px;
-    display: block;
-    width: 215px;
-    height: 308px;
-  }
-  .subblock__about__sertificates ul li p {
-    font: 16px 'robotobold';
-    text-align: center;
-    color: #131e22;
-  }
-  .subblock__about__content {
-    float: right;
-    width: 532px;
-  }
-  .subblock__about__content h4 {
-    font: 26px 'robotobold';
-    color: #000;
-    margin-bottom: 10px;
-  }
-  .subblock__about__content p {
-    font: 16px 'robotolight';
-    line-height: 28px;
-    color: #000;
   }
 }
