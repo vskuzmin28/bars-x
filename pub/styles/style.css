@@ -258,73 +258,24 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .subblock__services {
-    padding: 74px 0 64px 0;
-    height: auto;
-    background: #fff;
-  }
-  .subblock__services ul {
-    margin-bottom: 74px;
+  .subblock__manufactures {
+    padding: 62px 0 0 0;
     height: auto;
     overflow: hidden;
   }
-  .subblock__services ul li {
-    margin-right: 74px;
-    float: left;
-    width: 337px;
-    height: 337px;
+  .subblock__manufactures ul {
+    margin-top: 70px;
+    height: auto;
   }
-  .subblock__services ul li:last-child {
+  .subblock__manufactures ul li {
+    margin-right: 60px;
+    margin-bottom: 80px;
+    float: left;
+    width: 224px;
+    height: 92px;
+  }
+  .subblock__manufactures ul li:nth-child(4n+4) {
     margin-right: 0;
-  }
-  .subblock__services ul li img {
-    width: 337px;
-    height: 337px;
-  }
-  .subblock__services__content {
-    height: auto;
-    overflow: hidden;
-  }
-  .subblock__services__content div {
-    display: block;
-    float: left;
-  }
-  .subblock__services__content div h4 {
-    margin-bottom: 10px;
-    font: 24px 'robotobold';
-    color: #000;
-  }
-  .subblock__services__content div p {
-    font: 16px 'robotolight';
-    color: #000;
-  }
-  .subblock__services__content div ul {
-    margin-top: 38px;
-    height: auto;
-    margin-bottom: 0;
-  }
-  .subblock__services__content div ul li {
-    float: none;
-    width: auto;
-    height: auto;
-  }
-  .subblock__services__content div ul li p {
-    margin-left: 20px;
-    margin-bottom: 23px;
-  }
-  .subblock__services__content div ul li img {
-    width: 13px;
-    height: 13px;
-    margin-top: 2px;
-    display: block;
-    float: left;
-  }
-  .subblock__services__content div:nth-child(1) {
-    width: 562px;
-  }
-  .subblock__services__content div:nth-child(2) {
-    float: right;
-    width: 550px;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -393,5 +344,75 @@ a {
     width: 100px;
     height: 1px;
     background: #d7d7d7;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .subblock__services {
+    padding: 74px 0 64px 0;
+    height: auto;
+    background: #fff;
+  }
+  .subblock__services ul {
+    margin-bottom: 74px;
+    height: auto;
+    overflow: hidden;
+  }
+  .subblock__services ul li {
+    margin-right: 74px;
+    float: left;
+    width: 337px;
+    height: 337px;
+  }
+  .subblock__services ul li:last-child {
+    margin-right: 0;
+  }
+  .subblock__services ul li img {
+    width: 337px;
+    height: 337px;
+  }
+  .subblock__services__content {
+    height: auto;
+    overflow: hidden;
+  }
+  .subblock__services__content div {
+    display: block;
+    float: left;
+  }
+  .subblock__services__content div h4 {
+    margin-bottom: 10px;
+    font: 24px 'robotobold';
+    color: #000;
+  }
+  .subblock__services__content div p {
+    font: 16px 'robotolight';
+    color: #000;
+  }
+  .subblock__services__content div ul {
+    margin-top: 38px;
+    height: auto;
+    margin-bottom: 0;
+  }
+  .subblock__services__content div ul li {
+    float: none;
+    width: auto;
+    height: auto;
+  }
+  .subblock__services__content div ul li p {
+    margin-left: 20px;
+    margin-bottom: 23px;
+  }
+  .subblock__services__content div ul li img {
+    width: 13px;
+    height: 13px;
+    margin-top: 2px;
+    display: block;
+    float: left;
+  }
+  .subblock__services__content div:nth-child(1) {
+    width: 562px;
+  }
+  .subblock__services__content div:nth-child(2) {
+    float: right;
+    width: 550px;
   }
 }
