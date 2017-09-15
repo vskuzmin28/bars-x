@@ -235,3 +235,52 @@ a {
     width: 550px;
   }
 }
+@media only screen and (min-width: 1024px) {
+  .subblock__about {
+    padding: 52px 0;
+    height: auto;
+    overflow: hidden;
+    background: url('../img/about-bg.png');
+  }
+  .subblock__about__sertificates {
+    margin-left: 38px;
+    float: left;
+    width: 510px;
+  }
+  .subblock__about__sertificates ul {
+    height: auto;
+  }
+  .subblock__about__sertificates ul li {
+    margin-right: 76px;
+    float: left;
+    width: 215px;
+  }
+  .subblock__about__sertificates ul li:last-child {
+    margin-right: 0;
+  }
+  .subblock__about__sertificates ul li img {
+    margin-bottom: 34px;
+    display: block;
+    width: 215px;
+    height: 308px;
+  }
+  .subblock__about__sertificates ul li p {
+    font: 16px 'robotobold';
+    text-align: center;
+    color: #131e22;
+  }
+  .subblock__about__content {
+    float: right;
+    width: 532px;
+  }
+  .subblock__about__content h4 {
+    font: 26px 'robotobold';
+    color: #000;
+    margin-bottom: 10px;
+  }
+  .subblock__about__content p {
+    font: 16px 'robotolight';
+    line-height: 28px;
+    color: #000;
+  }
+}
