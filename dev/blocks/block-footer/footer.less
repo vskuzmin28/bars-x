@@ -1,0 +1,167 @@
+@media only screen and (min-width : 1024px) {
+
+  // footer
+
+  footer {
+    position: relative;
+    padding-top: 38px;
+    height: 266px;
+    background: @grey-dark
+  }
+
+  // footer logo & copyright
+
+  .footer__logo-copyright {
+    float: left;
+    width: 388px;
+    height: auto;
+    overflow: hidden;
+
+    p {
+      margin-top: 10px;
+      font: 16px @roboto-light;
+      color: @white;
+    }
+
+  }
+
+  // logotype
+
+  .footer__logo {
+    margin-bottom: 20px;
+    display: block;
+    width: 243px;
+    height: 60px;
+
+    img {
+      display: block;
+      width: 243px;
+      height: 60px;
+    }
+
+  }
+
+  // copyright
+
+  .footer__copyright {
+    p {
+      margin-top: 30px;
+      font: 16px @roboto-light;
+      color: @grey-light;
+    }
+  }
+
+  // footer navigation
+
+  .footer__navigation {
+    margin-top: 10px;
+    float: left;
+    width: 146px;
+    margin-right: 145px;
+
+    ul {
+      li a, li a:hover {
+        display: block;
+        font: 16px @roboto-light;
+        text-transform: uppercase;
+        line-height: 30px;
+        color: @white;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+      }
+    }
+
+  }
+
+  // footer contacts
+
+  .footer__contacts {
+    margin-top: 10px;
+    float: left;
+    width: 194px;
+
+
+    p {
+      margin: 8px 0 18px 0;
+      display: block;
+      font: 16px @roboto-light;
+      color: @white;
+      height: 20px;
+
+      img {
+        margin-right: 8px;
+        display: block;
+        float: left;
+        width: 20px;
+        height: 20px;
+      }
+
+    }
+
+  }
+  
+  // phone number
+
+  .footer__contacts__phone {
+    display: block;
+    font: 20px @roboto-light;
+    color: @white;
+    text-decoration: none;
+
+    span {
+      font-family: @roboto-bold;
+    }
+
+  }
+
+  // mail to
+
+  .footer__contacts__mailto {
+    display: block;
+    font: 16px @roboto-light;
+    line-height: 21px;
+    color: @white;
+    text-decoration: none;
+
+    img {
+      margin-right: 8px;
+      display: block;
+      float: left;
+      width: 20px;
+      height: 20px;
+    }
+
+    span {
+      font-family: @roboto-bold;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+  }
+
+  // up page
+
+  .up-page {
+    margin-top: 14px;
+    margin-right: 66px;
+    float: right;
+    display: block;
+    width: 64px;
+    height: 64px;
+    background: @red url('../img/icons/icon-3.png') no-repeat 19px 19px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+      background: @red-light url('../img/icons/icon-3.png') no-repeat 19px 16px;
+    }
+
+  }
+
+}
