@@ -57,6 +57,21 @@ a {
   cursor: pointer;
 }
 @media only screen and (min-width: 1024px) {
+  .main-header {
+    margin-top: 6px;
+    margin-bottom: 8px;
+    height: 94px;
+    background: #bf3737;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .main-navigation {
+    margin-bottom: 27px;
+    height: 55px;
+    background: #bf3737;
+  }
+}
+@media only screen and (min-width: 1024px) {
   footer {
     position: relative;
     padding-top: 38px;
@@ -173,6 +188,14 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .main-screen-bg {
+    height: 514px;
+    overflow: hidden;
+    background: url('../img/main-action-bg.png') no-repeat center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1024px) {
   .subblock__about {
     padding: 52px 0;
     height: auto;
@@ -222,6 +245,41 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .subblock__main-action-screen {
+    height: 285px;
+    overflow: hidden;
+  }
+  .subblock__main-action-screen img {
+    margin-right: 78px;
+    display: block;
+    float: left;
+    width: 259px;
+    height: 285px;
+  }
+  .subblock__main-action-screen form {
+    float: left;
+    width: 225px;
+  }
+  .subblock__main-action-screen__content {
+    margin-right: 28px;
+    float: left;
+    width: 485px;
+    height: 285px;
+  }
+  .subblock__main-action-screen__content h2 {
+    margin-top: 35px;
+    margin-bottom: 24px;
+    font: 36px 'robotolight';
+    color: #fefefe;
+    line-height: 36px;
+  }
+  .subblock__main-action-screen__content p {
+    font: 20px 'robotolight';
+    line-height: 30px;
+    color: #fefefe;
+  }
+}
+@media only screen and (min-width: 1024px) {
   .subblock__main-services {
     padding: 56px 0 20px 0;
     height: auto;
@@ -264,11 +322,11 @@ a {
     overflow: hidden;
   }
   .subblock__manufactures ul {
-    margin-top: 70px;
+    margin-top: 90px;
     height: auto;
   }
   .subblock__manufactures ul li {
-    margin-right: 60px;
+    margin-right: 88px;
     margin-bottom: 80px;
     float: left;
     width: 224px;
