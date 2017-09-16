@@ -129,6 +129,38 @@
     height: auto;
     overflow: hidden;
   }
+  .characteristics__body {
+    margin-top: 20px;
+    margin-bottom: 44px;
+    height: auto;
+    overflow: hidden;
+  }
+  .characteristics__body ul {
+    float: left;
+    width: 564px;
+  }
+  .characteristics__body ul li {
+    display: block;
+    margin-bottom: 2px;
+    background: #eff2f4;
+    overflow: hidden;
+  }
+  .characteristics__body ul li p {
+    margin: 10px 0 10px 10px;
+    float: left;
+    font: 16px 'robotolight';
+    color: #000;
+  }
+  .characteristics__body ul li span {
+    margin: 10px 10px 10px 0;
+    display: block;
+    float: right;
+    font: 16px 'robotolight';
+    color: #000;
+  }
+  .characteristics__body ul:last-child {
+    float: right;
+  }
 }
 a,
 a:hover,
@@ -285,14 +317,6 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .header-bg {
-    height: 190px;
-    overflow: hidden;
-    background: #f4f5f5;
-    background-size: cover;
-  }
-}
-@media only screen and (min-width: 1024px) {
   .information__article h4 {
     margin-bottom: 10px;
     font: 18px 'robotobold';
@@ -384,6 +408,14 @@ a {
     display: block;
     font: 16px 'robotolight' !important;
     color: #bf3737;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .header-bg {
+    height: 190px;
+    overflow: hidden;
+    background: #f4f5f5;
+    background-size: cover;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -643,6 +675,54 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .service {
+    height: auto;
+    overflow: hidden;
+  }
+  .service .subblock__main-services__circle {
+    border-color: #3b4b51;
+  }
+  .service .subblock__main-services__circle a,
+  .service .subblock__main-services__circle a:hover {
+    width: auto;
+  }
+  .service .goods ul {
+    margin: 0 42px;
+    height: auto;
+    overflow: hidden;
+  }
+  .service .goods ul li {
+    height: auto;
+  }
+  .service .goods ul li .goods__line {
+    margin-top: 60px !important;
+  }
+  .service .goods li a,
+  .service .goods li a:hover {
+    margin-top: 80px;
+    font: 18px 'robotobold';
+    color: #000;
+  }
+  .service__text-content {
+    overflow: hidden;
+    height: auto;
+  }
+  .service__text-content img {
+    float: left;
+    display: block;
+    width: 245px;
+    height: 180px;
+  }
+  .service__text-content__content {
+    float: right;
+    width: 890px;
+  }
+  .service__text-content__content p {
+    font: 16px 'robotolight';
+    color: #000;
+  }
+}
+@media only screen and (min-width: 1024px) {
   .subblock__about {
     padding: 52px 0;
     height: auto;
@@ -792,27 +872,6 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .subblock__manufactures {
-    padding: 62px 0 0 0;
-    height: auto;
-    overflow: hidden;
-  }
-  .subblock__manufactures ul {
-    margin-top: 90px;
-    height: auto;
-  }
-  .subblock__manufactures ul li {
-    margin-right: 88px;
-    margin-bottom: 80px;
-    float: left;
-    width: 224px;
-    height: 92px;
-  }
-  .subblock__manufactures ul li:nth-child(4n+4) {
-    margin-right: 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
   .subblock__main-services {
     padding: 56px 0 20px 0;
     height: auto;
@@ -846,6 +905,27 @@ a {
     margin: 47px 0 0 62px;
     width: 74px;
     height: 102px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .subblock__manufactures {
+    padding: 62px 0 0 0;
+    height: auto;
+    overflow: hidden;
+  }
+  .subblock__manufactures ul {
+    margin-top: 90px;
+    height: auto;
+  }
+  .subblock__manufactures ul li {
+    margin-right: 88px;
+    margin-bottom: 80px;
+    float: left;
+    width: 224px;
+    height: 92px;
+  }
+  .subblock__manufactures ul li:nth-child(4n+4) {
+    margin-right: 0;
   }
 }
 @media only screen and (min-width: 1024px) {

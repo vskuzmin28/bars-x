@@ -181,4 +181,44 @@
   	overflow: hidden;
   }
 
+  .characteristics__body {
+    margin-top: 20px;
+    margin-bottom: 44px;
+    height: auto;
+    overflow: hidden;
+
+    ul {
+      float: left;
+      width: 564px;
+
+      li {
+        display: block;
+        margin-bottom: 2px;
+        background: #eff2f4;
+        overflow: hidden;
+
+        p {
+          margin: 10px 0 10px 10px;
+          float: left;
+          font: 16px @roboto-light;
+          color: @black;
+        }
+
+        span {
+          margin: 10px 10px 10px 0;
+          display: block;
+          float: right;
+          font: 16px @roboto-light;
+          color: @black;
+        }
+
+      }
+
+      &:last-child {
+        float: right;
+      }
+
+    }
+  }
+
 }
