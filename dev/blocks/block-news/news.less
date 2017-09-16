@@ -1,0 +1,51 @@
+@media only screen and (min-width : 1024px) {
+
+	// news
+
+	.news {
+
+		ul {
+
+			li {
+				margin-bottom: 36px;
+				float: left;
+				width: 545px;
+				margin-right: 69px;
+
+				a, a:hover {
+					display: block;
+					font: 24px @roboto-bold;
+					color: @red;
+					text-decoration: none;
+				}
+
+				span {
+					margin: 4px 0 15px 0;
+					display: block;
+					font: 16px @roboto-light;
+					color: #6a7275;
+				}
+
+				p {
+					margin-bottom: 4px;
+					font: 16px @roboto-light;
+					color: @black;
+				}
+
+				&:nth-child(2n+2) {
+					margin-right: 0;
+				}
+
+			}
+
+		}
+
+	}
+
+	.news__link-detail {
+		display: block;
+		font: 16px @roboto-light !important;
+		color: @red;
+	}
+
+}
