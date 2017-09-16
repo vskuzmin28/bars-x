@@ -5,7 +5,54 @@
 	.main-navigation {
 		margin-bottom: 27px;
 		height: 55px;
-		background: @red;
+	}
+
+	.main-navigation__body {
+		border: 1px solid #989d9f;
+		background: 0;
+		height: 53px;
+	}
+
+	.main-navigation__links {
+
+
+		li a, li a:hover {
+			float: left;
+			display: block;
+			padding: 0 30px;
+			height: 53px;
+			font: 20px @roboto-light;
+			color: @white;
+			text-decoration: none;
+			line-height: 53px;
+			text-transform: uppercase;
+		}
+
+	}
+
+	.basket__small {
+		float: right;
+		width: 170px;
+		height: 53px;
+		border-left: 1px solid #989d9f;
+
+		a, a:hover {
+			margin: 15px 0 0 23px;
+			padding-left: 35px;
+			display: block;
+			height: 22px;
+			background: url('../img/icons/icon-5.png') no-repeat;
+			font: 16px @roboto-light;
+			color: @white;
+			text-decoration: none;
+			line-height: 22px;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+		}
+
 	}
 
 }
