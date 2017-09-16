@@ -47,7 +47,6 @@
   }
   .btn-red {
     display: block;
-    float: left;
     width: 225px;
     height: 58px;
     background: #bf3737;
@@ -62,6 +61,73 @@
   .btn-red:hover {
     background: #db3f3f;
     font-family: 'robotobold';
+  }
+  .block__contacts {
+    margin-top: 10px;
+    float: left;
+    width: 194px;
+  }
+  .block__contacts p {
+    margin: 8px 0 18px 0;
+    display: block;
+    font: 16px 'robotolight';
+    color: #fefefe;
+    height: 20px;
+  }
+  .block__contacts p img {
+    margin-right: 8px;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+  }
+  .block__contacts__phone {
+    display: block;
+    font: 20px 'robotolight';
+    color: #fefefe;
+    text-decoration: none;
+  }
+  .block__contacts__phone span {
+    font-family: 'robotobold';
+  }
+  .block__contacts__mailto {
+    display: block;
+    font: 16px 'robotolight';
+    line-height: 21px;
+    color: #fefefe;
+    text-decoration: none;
+  }
+  .block__contacts__mailto img {
+    margin-right: 8px;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+  }
+  .block__contacts__mailto span {
+    font-family: 'robotobold';
+  }
+  .block__contacts__mailto:hover {
+    text-decoration: underline;
+  }
+  .up-page {
+    margin-top: 14px;
+    margin-right: 66px;
+    float: right;
+    display: block;
+    width: 64px;
+    height: 64px;
+    background: #bf3737 url('../img/icons/icon-3.png') no-repeat 19px 19px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .up-page:hover {
+    background: #db3f3f url('../img/icons/icon-3.png') no-repeat 19px 16px;
+  }
+  main {
+    margin: 60px 0;
+    height: auto;
+    overflow: hidden;
   }
 }
 a,
@@ -132,67 +198,53 @@ a {
   .footer__navigation ul li a:hover:hover {
     text-decoration: underline;
   }
-  .block__contacts {
+}
+@media only screen and (min-width: 1024px) {
+  .header {
+    margin-top: 22px;
+    margin-bottom: 25px;
+    height: 60px;
+    overflow: hidden;
+  }
+  .header__logo {
+    margin-right: 55px;
+    display: block;
+    width: 243px;
+    height: 60px;
+    float: left;
+  }
+  .header__title-site {
     margin-top: 10px;
     float: left;
+    width: 243px;
+    margin-right: 138px;
+  }
+  .header__title-site p {
+    margin-bottom: 6px;
+    font: 16px 'robotolight';
+    color: #000;
+  }
+  .header__color-black {
+    color: #000 !important;
+  }
+  .header__contacts {
+    margin-right: 50px;
+    margin-top: 6px;
+    float: left;
     width: 194px;
+    color: #000 !important;
   }
-  .block__contacts p {
-    margin: 8px 0 18px 0;
-    display: block;
-    font: 16px 'robotolight';
-    color: #fefefe;
-    height: 20px;
-  }
-  .block__contacts p img {
-    margin-right: 8px;
-    display: block;
+  .header__call {
+    margin-top: 0px;
     float: left;
-    width: 20px;
-    height: 20px;
   }
-  .block__contacts__phone {
-    display: block;
-    font: 20px 'robotolight';
-    color: #fefefe;
-    text-decoration: none;
-  }
-  .block__contacts__phone span {
-    font-family: 'robotobold';
-  }
-  .block__contacts__mailto {
-    display: block;
-    font: 16px 'robotolight';
-    line-height: 21px;
-    color: #fefefe;
-    text-decoration: none;
-  }
-  .block__contacts__mailto img {
-    margin-right: 8px;
-    display: block;
-    float: left;
-    width: 20px;
-    height: 20px;
-  }
-  .block__contacts__mailto span {
-    font-family: 'robotobold';
-  }
-  .block__contacts__mailto:hover {
-    text-decoration: underline;
-  }
-  .up-page {
-    margin-top: 14px;
-    margin-right: 66px;
-    float: right;
-    display: block;
-    width: 64px;
-    height: 64px;
-    background: #bf3737 url('../img/icons/icon-3.png') no-repeat 19px 19px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  .up-page:hover {
-    background: #db3f3f url('../img/icons/icon-3.png') no-repeat 19px 16px;
+}
+@media only screen and (min-width: 1024px) {
+  .header-bg {
+    height: 190px;
+    overflow: hidden;
+    background: #f4f5f5;
+    background-size: cover;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -227,22 +279,15 @@ a {
   }
   .main-header__call {
     margin-top: 19px;
-    display: block;
     float: left;
-    width: 225px;
-    height: 58px;
-    background: #bf3737;
-    border-radius: 15px;
-    color: #fefefe;
-    text-align: center;
-    font: 16px 'robotolight';
-    line-height: 58px;
-    text-decoration: none;
-    text-transform: uppercase;
   }
-  .main-header__call:hover {
-    background: #db3f3f;
-    font-family: 'robotobold';
+}
+@media only screen and (min-width: 1024px) {
+  .main-screen-bg {
+    height: 514px;
+    overflow: hidden;
+    background: url('../img/main-action-bg.png') no-repeat center;
+    background-size: cover;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -267,14 +312,14 @@ a {
     line-height: 53px;
     text-transform: uppercase;
   }
-  .basket__small {
+  .main-basket__small {
     float: right;
     width: 170px;
     height: 53px;
     border-left: 1px solid #989d9f;
   }
-  .basket__small a,
-  .basket__small a:hover {
+  .main-basket__small a,
+  .main-basket__small a:hover {
     margin: 15px 0 0 23px;
     padding-left: 35px;
     display: block;
@@ -285,17 +330,54 @@ a {
     text-decoration: none;
     line-height: 22px;
   }
-  .basket__small a:hover,
-  .basket__small a:hover:hover {
+  .main-basket__small a:hover,
+  .main-basket__small a:hover:hover {
     text-decoration: underline;
   }
 }
 @media only screen and (min-width: 1024px) {
-  .main-screen-bg {
-    height: 514px;
-    overflow: hidden;
-    background: url('../img/main-action-bg.png') no-repeat center;
-    background-size: cover;
+  .navigation {
+    margin-bottom: 29px;
+    height: 55px;
+  }
+  .navigation__body {
+    border: 1px solid #f4f5f5;
+    background: 0;
+    height: 53px;
+  }
+  .navigation__links li a,
+  .navigation__links li a:hover {
+    float: left;
+    display: block;
+    padding: 0 30px;
+    height: 53px;
+    font: 20px 'robotolight';
+    color: #bf3737;
+    text-decoration: none;
+    line-height: 53px;
+    text-transform: uppercase;
+  }
+  .basket__small {
+    float: right;
+    width: 170px;
+    height: 53px;
+    border-left: 1px solid #fefefe;
+  }
+  .basket__small a,
+  .basket__small a:hover {
+    margin: 15px 0 0 23px;
+    padding-left: 35px;
+    display: block;
+    height: 22px;
+    background: url('../img/icons/icon-6.png') no-repeat;
+    font: 16px 'robotolight';
+    color: #000;
+    text-decoration: none;
+    line-height: 22px;
+  }
+  .basket__small a:hover,
+  .basket__small a:hover:hover {
+    text-decoration: underline;
   }
 }
 @media only screen and (min-width: 1024px) {
