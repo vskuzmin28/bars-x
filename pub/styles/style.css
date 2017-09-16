@@ -45,6 +45,24 @@
     color: #000;
     text-align: center;
   }
+  .btn-red {
+    display: block;
+    float: left;
+    width: 225px;
+    height: 58px;
+    background: #bf3737;
+    border-radius: 15px;
+    color: #fefefe;
+    text-align: center;
+    font: 16px 'robotolight';
+    line-height: 58px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .btn-red:hover {
+    background: #db3f3f;
+    font-family: 'robotobold';
+  }
 }
 a,
 a:hover,
@@ -114,52 +132,52 @@ a {
   .footer__navigation ul li a:hover:hover {
     text-decoration: underline;
   }
-  .footer__contacts {
+  .block__contacts {
     margin-top: 10px;
     float: left;
     width: 194px;
   }
-  .footer__contacts p {
+  .block__contacts p {
     margin: 8px 0 18px 0;
     display: block;
     font: 16px 'robotolight';
     color: #fefefe;
     height: 20px;
   }
-  .footer__contacts p img {
+  .block__contacts p img {
     margin-right: 8px;
     display: block;
     float: left;
     width: 20px;
     height: 20px;
   }
-  .footer__contacts__phone {
+  .block__contacts__phone {
     display: block;
     font: 20px 'robotolight';
     color: #fefefe;
     text-decoration: none;
   }
-  .footer__contacts__phone span {
+  .block__contacts__phone span {
     font-family: 'robotobold';
   }
-  .footer__contacts__mailto {
+  .block__contacts__mailto {
     display: block;
     font: 16px 'robotolight';
     line-height: 21px;
     color: #fefefe;
     text-decoration: none;
   }
-  .footer__contacts__mailto img {
+  .block__contacts__mailto img {
     margin-right: 8px;
     display: block;
     float: left;
     width: 20px;
     height: 20px;
   }
-  .footer__contacts__mailto span {
+  .block__contacts__mailto span {
     font-family: 'robotobold';
   }
-  .footer__contacts__mailto:hover {
+  .block__contacts__mailto:hover {
     text-decoration: underline;
   }
   .up-page {
@@ -182,7 +200,49 @@ a {
     margin-top: 6px;
     margin-bottom: 8px;
     height: 94px;
+  }
+  .main-header__logo {
+    margin-right: 83px;
+    display: block;
+    width: 238px;
+    height: 94px;
+    float: left;
+  }
+  .main-header__title-site {
+    margin-top: 26px;
+    float: left;
+    width: 243px;
+    margin-right: 145px;
+  }
+  .main-header__title-site p {
+    margin-bottom: 10px;
+    font: 16px 'robotolight';
+    color: #fefefe;
+  }
+  .main-header__contacts {
+    margin-right: 50px;
+    margin-top: 26px;
+    float: left;
+    width: 194px;
+  }
+  .main-header__call {
+    margin-top: 19px;
+    display: block;
+    float: left;
+    width: 225px;
+    height: 58px;
     background: #bf3737;
+    border-radius: 15px;
+    color: #fefefe;
+    text-align: center;
+    font: 16px 'robotolight';
+    line-height: 58px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .main-header__call:hover {
+    background: #db3f3f;
+    font-family: 'robotobold';
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -288,42 +348,6 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .subblock__main-services {
-    padding: 56px 0 20px 0;
-    height: auto;
-    overflow: hidden;
-    background: url('../img/services-main-bg.png') no-repeat center;
-    background-size: cover;
-  }
-  .subblock__main-services h2 {
-    color: #fefefe;
-  }
-  .subblock__main-services .goods ul li p,
-  .subblock__main-services .goods ul li a {
-    color: #fefefe !important;
-  }
-  .subblock__main-services .goods ul li a,
-  .subblock__main-services .goods ul li a:hover {
-    font-family: 'robotobold';
-  }
-  .subblock__main-services .goods li {
-    height: 484px;
-  }
-  .subblock__main-services__circle {
-    margin: 0 auto;
-    margin-bottom: 56px;
-    width: 197px;
-    height: 197px;
-    border-radius: 50%;
-    border: 6px solid #fefefe;
-  }
-  .subblock__main-services__circle img {
-    margin: 47px 0 0 62px;
-    width: 74px;
-    height: 102px;
-  }
-}
-@media only screen and (min-width: 1024px) {
   .subblock__main-action-screen {
     height: 285px;
     overflow: hidden;
@@ -421,6 +445,42 @@ a {
   .subblock__main-action-screen form input:focus:-ms-input-placeholder {
     opacity: 0;
     transition: opacity 0.3s ease;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .subblock__main-services {
+    padding: 56px 0 20px 0;
+    height: auto;
+    overflow: hidden;
+    background: url('../img/services-main-bg.png') no-repeat center;
+    background-size: cover;
+  }
+  .subblock__main-services h2 {
+    color: #fefefe;
+  }
+  .subblock__main-services .goods ul li p,
+  .subblock__main-services .goods ul li a {
+    color: #fefefe !important;
+  }
+  .subblock__main-services .goods ul li a,
+  .subblock__main-services .goods ul li a:hover {
+    font-family: 'robotobold';
+  }
+  .subblock__main-services .goods li {
+    height: 484px;
+  }
+  .subblock__main-services__circle {
+    margin: 0 auto;
+    margin-bottom: 56px;
+    width: 197px;
+    height: 197px;
+    border-radius: 50%;
+    border: 6px solid #fefefe;
+  }
+  .subblock__main-services__circle img {
+    margin: 47px 0 0 62px;
+    width: 74px;
+    height: 102px;
   }
 }
 @media only screen and (min-width: 1024px) {
