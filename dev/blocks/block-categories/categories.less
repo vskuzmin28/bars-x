@@ -1,0 +1,58 @@
+@media only screen and (min-width : 1024px) {
+
+	// categories
+
+	.categories {
+		margin: 0 auto;
+		width: 1068px;
+		height: auto;
+		overflow: hidden;
+		margin-bottom: 40px;
+
+		p {
+			font: 16px @roboto-light;
+			color: @black;
+		}
+
+		ul {
+			margin: 0 52px;
+			overflow: hidden;
+			height: auto;
+
+			li {
+				margin-bottom: 60px;
+				float: left;
+				width: 234px;
+				margin-right: 130px;
+
+				&:nth-child(3n+3) {
+					margin-right: 0;
+				}
+
+				p {
+					font: 20px @roboto-light;
+					color: @red;
+					text-transform: uppercase;
+					text-align: center;
+				}
+
+				a, a:hover {
+					display: block;
+					text-decoration: none;
+
+					img {
+						margin-bottom: 26px;
+						display: block;
+						width: 234px;
+						height: 216px;
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

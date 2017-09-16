@@ -146,6 +146,51 @@ a {
   cursor: pointer;
 }
 @media only screen and (min-width: 1024px) {
+  .categories {
+    margin: 0 auto;
+    width: 1068px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  .categories p {
+    font: 16px 'robotolight';
+    color: #000;
+  }
+  .categories ul {
+    margin: 0 52px;
+    overflow: hidden;
+    height: auto;
+  }
+  .categories ul li {
+    margin-bottom: 60px;
+    float: left;
+    width: 234px;
+    margin-right: 130px;
+  }
+  .categories ul li:nth-child(3n+3) {
+    margin-right: 0;
+  }
+  .categories ul li p {
+    font: 20px 'robotolight';
+    color: #bf3737;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .categories ul li a,
+  .categories ul li a:hover {
+    display: block;
+    text-decoration: none;
+  }
+  .categories ul li a img,
+  .categories ul li a:hover img {
+    margin-bottom: 26px;
+    display: block;
+    width: 234px;
+    height: 216px;
+  }
+}
+@media only screen and (min-width: 1024px) {
   footer {
     position: relative;
     padding-top: 38px;
@@ -689,27 +734,6 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
-  .subblock__manufactures {
-    padding: 62px 0 0 0;
-    height: auto;
-    overflow: hidden;
-  }
-  .subblock__manufactures ul {
-    margin-top: 90px;
-    height: auto;
-  }
-  .subblock__manufactures ul li {
-    margin-right: 88px;
-    margin-bottom: 80px;
-    float: left;
-    width: 224px;
-    height: 92px;
-  }
-  .subblock__manufactures ul li:nth-child(4n+4) {
-    margin-right: 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
   .subblock__popular-goods {
     padding: 90px 0 40px 0;
     height: auto;
@@ -775,6 +799,27 @@ a {
     width: 100px;
     height: 1px;
     background: #d7d7d7;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .subblock__manufactures {
+    padding: 62px 0 0 0;
+    height: auto;
+    overflow: hidden;
+  }
+  .subblock__manufactures ul {
+    margin-top: 90px;
+    height: auto;
+  }
+  .subblock__manufactures ul li {
+    margin-right: 88px;
+    margin-bottom: 80px;
+    float: left;
+    width: 224px;
+    height: 92px;
+  }
+  .subblock__manufactures ul li:nth-child(4n+4) {
+    margin-right: 0;
   }
 }
 @media only screen and (min-width: 1024px) {
