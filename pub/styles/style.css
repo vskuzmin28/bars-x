@@ -57,21 +57,6 @@ a {
   cursor: pointer;
 }
 @media only screen and (min-width: 1024px) {
-  .main-header {
-    margin-top: 6px;
-    margin-bottom: 8px;
-    height: 94px;
-    background: #bf3737;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .main-navigation {
-    margin-bottom: 27px;
-    height: 55px;
-    background: #bf3737;
-  }
-}
-@media only screen and (min-width: 1024px) {
   footer {
     position: relative;
     padding-top: 38px;
@@ -188,6 +173,21 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .main-header {
+    margin-top: 6px;
+    margin-bottom: 8px;
+    height: 94px;
+    background: #bf3737;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .main-navigation {
+    margin-bottom: 27px;
+    height: 55px;
+    background: #bf3737;
+  }
+}
+@media only screen and (min-width: 1024px) {
   .main-screen-bg {
     height: 514px;
     overflow: hidden;
@@ -257,11 +257,40 @@ a {
     height: 285px;
   }
   .subblock__main-action-screen form {
+    margin-top: 38px;
     float: left;
     width: 225px;
   }
+  .subblock__main-action-screen form input[type="text"] {
+    margin-bottom: 22px;
+    width: 225px;
+    height: 60px;
+    background: #fefefe;
+    border-radius: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    font: 16px 'robotolight';
+    color: #000;
+  }
+  .subblock__main-action-screen form input[type="submit"] {
+    width: 225px;
+    height: 60px;
+    background: #bf3737;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font: 16px 'robotolight';
+    color: #fefefe;
+    text-transform: uppercase;
+  }
+  .subblock__main-action-screen form input[type="submit"]:hover {
+    background: #db3f3f;
+    font-family: 'robotobold';
+  }
   .subblock__main-action-screen__content {
-    margin-right: 28px;
+    margin-right: 98px;
     float: left;
     width: 485px;
     height: 285px;
@@ -277,6 +306,42 @@ a {
     font: 20px 'robotolight';
     line-height: 30px;
     color: #fefefe;
+  }
+  .subblock__main-action-screen form input::-webkit-input-placeholder {
+    color: #000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input::-moz-placeholder {
+    color: #000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:-moz-placeholder {
+    color: #000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:-ms-input-placeholder {
+    color: #000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
   }
 }
 @media only screen and (min-width: 1024px) {

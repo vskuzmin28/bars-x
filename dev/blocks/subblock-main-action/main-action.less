@@ -15,8 +15,42 @@
 		}
 
 		form {
+			margin-top: 38px;
 			float: left;
 			width: 225px;
+
+			input[type="text"] {
+				margin-bottom: 22px;
+				width: 225px;
+				height: 60px;
+				background: @white;
+				border-radius: 15px;
+				text-align: center;
+				border: 0;
+				outline: 0;
+				font: 16px @roboto-light;
+				color: @black;
+			}
+
+			input[type="submit"] {
+				width: 225px;
+				height: 60px;
+				background: @red;
+				border-radius: 15px;
+				border: 0;
+				outline: 0;
+				cursor: pointer;
+				font: 16px @roboto-light;
+				color: @white;
+				text-transform: uppercase;
+
+				&:hover {
+					background: @red-light;
+					font-family: @roboto-bold;
+				}
+
+			}
+
 		}
 
 	}
@@ -24,7 +58,7 @@
 	// content
 
 	.subblock__main-action-screen__content {
-		margin-right: 28px;
+		margin-right: 98px;
 		float: left;
 		width: 485px;
 		height: 285px;
@@ -44,5 +78,42 @@
 		}
 
 	}
+
+	.subblock__main-action-screen form input::-webkit-input-placeholder {
+		color: @black;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input::-moz-placeholder {
+  	color: @black;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:-moz-placeholder {
+  	color: @black;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:-ms-input-placeholder {
+  	color: @black;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .subblock__main-action-screen form input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
 
 }
