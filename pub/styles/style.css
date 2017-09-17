@@ -213,6 +213,12 @@
     border: 1px solid #bf3737 !important;
     color: #000 !important;
   }
+  .w-100 {
+    width: 120px !important;
+  }
+  .w-150 {
+    width: 150px !important;
+  }
 }
 a,
 a:hover,
@@ -865,6 +871,136 @@ a {
     display: block;
     font: 16px 'robotolight' !important;
     color: #bf3737;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .order {
+    height: auto;
+    overflow: hidden;
+  }
+  .order input[type="text"] {
+    margin-right: 10px;
+    padding: 0 10px;
+    width: 268px;
+    height: 34px;
+    float: left;
+    background: 0;
+    border: 1px solid #8b8989;
+    font: 16px 'robotolight';
+    color: #000;
+  }
+  .order__inputs {
+    height: 40px;
+    overflow: hidden;
+  }
+  .order__labels {
+    margin-top: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .order__labels input[type="checkbox"] {
+    float: left;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+  }
+  .order__labels p {
+    float: left;
+    font: 18px 'robotolight';
+    color: #000;
+    line-height: 22px;
+  }
+  .order__delivery {
+    margin-top: 40px;
+    height: auto;
+    overflow: hidden;
+  }
+  .order__delivery p {
+    font: 20px 'robotobold';
+    color: #000;
+  }
+  .order__delivery p a,
+  .order__delivery p a:hover {
+    color: #bf3737;
+    text-decoration: none;
+  }
+  .order__delivery__types {
+    margin-top: 20px;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .order__delivery__types__column {
+    float: left;
+    width: 30%;
+  }
+  .order__delivery__types__column h4 {
+    font: 20px 'robotobold';
+    color: #bf3737;
+    margin-bottom: 10px;
+  }
+  .order__delivery__types__column p {
+    font: 16px 'robotolight';
+    color: #000;
+  }
+  .order__payment {
+    height: auto;
+    overflow: hidden;
+  }
+  .order__payment h4 {
+    font: 20px 'robotobold';
+    color: #000;
+    margin-bottom: 10px;
+  }
+  .order__payment p {
+    font: 16px 'robotolight';
+    color: #000;
+  }
+  .order__payment label {
+    margin-top: 30px;
+    vertical-align: middle;
+    float: left;
+    width: 260px;
+    margin-right: 10px;
+  }
+  .order__payment label input[type="radio"] {
+    margin-top: 26px;
+    float: left;
+    width: 20px;
+    height: 20px;
+  }
+  .order__payment label img {
+    margin-left: 10px;
+    display: block;
+    float: left;
+  }
+  .order__buttons {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .order__buttons a,
+  .order__buttons a:hover,
+  .order__buttons input[type="submit"] {
+    float: right;
+  }
+  .order__buttons input[type="submit"] {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+  }
+  .order__buttons__back {
+    margin: 0 68px;
+    display: block;
+    font: 20px 'robotoregular';
+    color: #bf3737;
+    line-height: 50px;
+    text-decoration: none;
+  }
+  .order__buttons__back:hover {
+    text-decoration: underline;
   }
 }
 @media only screen and (min-width: 1024px) {

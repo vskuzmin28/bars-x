@@ -1,0 +1,162 @@
+@media only screen and (min-width : 1024px) {
+
+	// order
+
+	.order {
+		height: auto;
+		overflow: hidden;
+
+		input[type="text"] {
+			margin-right: 10px;
+			padding: 0 10px;
+			width: 268px;
+			height: 34px;
+			float: left;
+			background: 0;
+			border: 1px solid #8b8989;
+			font: 16px @roboto-light;
+			color: @black;
+		}
+
+	}
+
+	.order__inputs {
+		height: 40px;
+		overflow: hidden;
+	}
+
+	.order__labels {
+		margin-top: 20px;
+		height: 20px;
+		overflow: hidden;
+
+		input[type="checkbox"] {
+			float: left;
+			margin-right: 10px;
+			width: 18px;
+			height: 18px;
+		}
+
+		p {
+			float: left;
+			font: 18px @roboto-light;
+			color: @black;
+			line-height: 22px;
+		}
+
+	}
+
+	.order__delivery {
+		margin-top: 40px;
+		height: auto;
+		overflow: hidden;
+
+		p {
+			font: 20px @roboto-bold;
+			color: @black;
+
+			a, a:hover {
+				color: @red;
+				text-decoration: none;
+			}
+
+		}
+	}
+
+	.order__delivery__types {
+		margin-top: 20px;
+		height: auto;
+		overflow: hidden;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.order__delivery__types__column {
+		float: left;
+		width: 30%;
+
+		h4 {
+			font: 20px @roboto-bold;
+			color: @red;
+			margin-bottom: 10px;
+		}
+
+		p {
+			font: 16px @roboto-light;
+			color: @black;
+		}
+
+	}
+
+	.order__payment {
+		height: auto;
+		overflow: hidden;
+
+		h4 {
+			font: 20px @roboto-bold;
+			color: @black;
+			margin-bottom: 10px;
+		}
+
+		p {
+			font: 16px @roboto-light;
+			color: @black;
+		}
+
+		label {
+			margin-top: 30px;
+			vertical-align: middle;
+			float: left;
+			width: 260px;
+			margin-right: 10px;
+
+			input[type="radio"] {
+				margin-top: 26px;
+				float: left;
+				width: 20px;
+				height: 20px;
+			}
+
+			img {
+				margin-left: 10px;
+				display: block;
+				float: left;
+			}
+
+		}
+
+	}
+
+	.order__buttons {
+		margin-top: 60px;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+
+		a, a:hover, input[type="submit"] {
+			float: right;
+		}
+
+		input[type="submit"] {
+			border: 0;
+			outline: 0;
+			cursor: pointer;
+		}
+
+	}
+
+	.order__buttons__back {
+		margin: 0 68px;
+		display: block;
+		font: 20px @roboto-regular;
+		color: @red;
+		line-height: 50px;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+
+	}
+
+}

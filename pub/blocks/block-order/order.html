@@ -1,0 +1,58 @@
+
+<div class="order">
+  <!-- title block-->
+  <h2 class="title-block">Подтверждение заказа</h2>
+  <!-- form-->
+  <form action="/" metho="post">
+    <div class="order__inputs">
+      <input type="text" name="" placeholder="Имя, Фамилия*" required="required"/>
+      <input type="text" name="" placeholder="E-mail*" required="required"/>
+      <input type="text" name="" placeholder="Телефон*" required="required"/>
+    </div>
+    <div class="order__labels">
+      <label>
+        <input type="checkbox" name="" checked="checked"/>
+        <p>	Хочу получать персональные предложения и скидки по эл. почте</p>
+      </label>
+    </div>
+    <div class="order__delivery">
+      <p>Доставка в г. <a href="#" title="">Москва</a></p>
+    </div>
+    <div class="order__delivery__types">
+      <div class="order__delivery__types__column">
+        <h4>Курьером: от 279 руб.</h4>
+        <p>Завтра</p>
+      </div>
+      <div class="order__delivery__types__column">
+        <h4>Самовывоз: от 0 руб.</h4>
+        <p>Завтра</p>
+      </div>
+      <div class="order__delivery__types__column">
+        <h4>Почта: от 246 руб.</h4>
+        <p>15 июня</p>
+      </div>
+    </div>
+    <div class="order__payment">
+      <h4>Оплата</h4>
+      <p>Выберете способ оплаты</p>
+      <label class="w-100"> 
+        <input type="radio"/><img src="../img/payments/payment-1.png" alt="@@" checked="checked"/>
+      </label>
+      <label>
+        <input type="radio"/><img src="../img/payments/payment-2.png" alt="@@"/>
+      </label>
+      <label>
+        <input type="radio"/><img src="../img/payments/payment-3.png" alt="@@"/>
+      </label>
+      <label class="w-150"> 
+        <input type="radio"/><img src="../img/payments/payment-4.png" alt="@@"/>
+      </label>
+      <label>
+        <input type="radio"/><img src="../img/payments/payment-5.png" alt="@@"/>
+      </label>
+    </div>
+    <div class="order__buttons">
+      <input class="btn-red" type="submit" value="Подтвердить"/><a class="order__buttons__back" href="#" title="">Отменить</a>
+    </div>
+  </form>
+</div>
