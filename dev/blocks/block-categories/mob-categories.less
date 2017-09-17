@@ -1,10 +1,10 @@
-@media only screen and (min-width : 1024px) {
+@media only screen and (min-width : 0px) and (max-width : 1024px) {
 
 	// categories
 
 	.categories {
 		margin: 0 auto;
-		width: 1068px;
+		width: auto;
 		height: auto;
 		overflow: hidden;
 		margin-bottom: 40px;
@@ -21,12 +21,13 @@
 
 			li {
 				margin-bottom: 60px;
-				float: left;
-				width: 234px;
+				float: none;
+				width: auto;
 				margin-right: 130px;
+				margin: 0 auto 30px auto;
 
 				&:nth-child(3n+3) {
-					margin-right: 0;
+					margin: 0 auto 30px auto;
 				}
 
 				p {
@@ -45,6 +46,7 @@
 						display: block;
 						width: 234px;
 						height: 216px;
+						margin: 0 auto 26px auto;
 					}
 
 				}
