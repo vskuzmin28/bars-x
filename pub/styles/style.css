@@ -354,7 +354,7 @@
   }
   .characteristics {
     margin-top: 20px;
-    margin-bottom: 44px;
+    margin-bottom: 20px;
     height: auto;
     overflow: hidden;
   }
@@ -363,19 +363,20 @@
     overflow: hidden;
   }
   .characteristics ul li {
-    float: left;
-    width: 564px;
+    float: none;
+    width: auto;
     display: block;
     margin-bottom: 2px;
     background: #eff2f4;
     overflow: hidden;
   }
   .characteristics ul li:nth-child(2n+2) {
-    float: right;
+    float: none;
   }
   .characteristics ul li p {
     margin: 10px 0 10px 10px;
     float: left;
+    width: 60%;
     font: 16px 'robotolight';
     color: #000;
   }
@@ -383,6 +384,7 @@
     margin: 10px 10px 10px 0;
     display: block;
     float: right;
+    width: 20%;
     font: 16px 'robotolight';
     color: #000;
   }
@@ -391,14 +393,16 @@
     height: auto;
   }
   .text-content-default__body img {
-    float: left;
+    float: none;
     display: block;
     width: 245px;
     height: 180px;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
   .text-content-default__content {
-    float: right;
-    width: 890px;
+    float: none;
+    width: auto;
   }
   .text-content-default__content p {
     font: 16px 'robotolight';
@@ -2220,7 +2224,7 @@ a {
     color: #000;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
   .service {
     height: auto;
     overflow: hidden;
@@ -2233,7 +2237,7 @@ a {
     width: auto;
   }
   .service .goods ul {
-    margin: 0 42px;
+    margin: 0 0;
     height: auto;
     overflow: hidden;
   }
