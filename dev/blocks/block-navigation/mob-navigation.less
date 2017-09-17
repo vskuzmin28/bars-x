@@ -1,23 +1,23 @@
-@media only screen and (min-width : 1024px) {
+@media only screen and (min-width : 0px) and (max-width : 1024px) {
 
 	// main navigation
 
 	.navigation {
 		margin-bottom: 29px;
-		height: 55px;
+		height: auto;
 	}
 
 	.navigation__body {
-		border: 1px solid #f4f5f5;
+		border: 0;
 		background: 0;
-		height: 53px;
+		height: auto;
 	}
 
 	.navigation__links {
 
 
 		li a, li a:hover {
-			float: left;
+			float: none;
 			display: block;
 			padding: 0 30px;
 			height: 53px;
@@ -26,15 +26,17 @@
 			text-decoration: none;
 			line-height: 53px;
 			text-transform: uppercase;
+			text-align: center;
 		}
 
 	}
 
 	.basket__small {
-		float: right;
+		float: none;
 		width: 170px;
 		height: 53px;
-		border-left: 1px solid @white;
+		border-left: 0;
+		margin: 30px auto;
 
 		a, a:hover {
 			margin: 15px 0 0 23px;

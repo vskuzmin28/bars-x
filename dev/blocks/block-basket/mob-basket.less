@@ -1,4 +1,4 @@
-@media only screen and (min-width : 1024px) {
+@media only screen and (min-width : 0px) and (max-width : 1024px) {
 
 	// basket
 
@@ -14,7 +14,7 @@
 	}
 
 	.basket table {
-		width: 100%;
+		width: auto;
 		margin-bottom: 40px;
 
 		thead {
@@ -24,7 +24,7 @@
 
 			tr {
 				height: 34px;
-				font: 16px @roboto-bold;
+				font: 14px @roboto-bold;
 				color: @black;
 				line-height: 34px;
 				text-indent: 10px;
@@ -73,23 +73,23 @@
 		margin-top: 5px;
 		display:block;
 		float:left;
-		width:28px;
-		height:28px;
+		width:18px;
+		height:18px;
 		background:@red;
 		border:0;
 		font:18px @roboto-light !important;
-		line-height:28px !important;
+		line-height:18px !important;
 		text-align:center;
 		color: @white !important;
 		cursor: pointer;
 	}
 	.opt-quontity span::selection, .product-entry .opt-quontity input[type='text']::selection {background:0;}
-	.opt-quontity span.quont-minus {border-radius:10px;}
-	.opt-quontity span.quont-plus {border-radius:10px;}
+	.opt-quontity span.quont-minus {display: none;border-radius:10px;}
+	.opt-quontity span.quont-plus {display: none;border-radius:10px;}
 	.opt-quontity input[type='text'] {
 		margin: 0 7px;
 		float:left;
-		width:74px;
+		width:24px;
 		height:34px;
 		border: 1px solid #8b8989;
 	}
@@ -112,8 +112,8 @@
 		overflow: hidden;
 		height: 60px;
 		margin-bottom: 30px;
-		float: right;
-		text-align: right;
+		float: left;
+		text-align: left;
 		
 		p {
 			font: 20px @roboto-bold;
@@ -128,13 +128,13 @@
 		overflow: hidden;
 
 		a, a:hover {
-			float: right;
+			float: none;
 		}
 
 	}
 
 	.basket__buttons__back {
-		margin: 0 68px;
+		margin: 20px 0 0 0;
 		display: block;
 		font: 20px @roboto-regular;
 		color: @red;
