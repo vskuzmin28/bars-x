@@ -1,0 +1,45 @@
+@media only screen and (min-width : 1024px) {
+
+	// portfolio
+
+	.portfolio {
+
+		ul {
+
+			li {
+				float: left;
+				width: 342px;
+				margin-right: 66px;
+
+				a, a:hover {
+					display: block;
+					height: 436px;
+					text-decoration: none;
+
+					&:hover {
+						text-decoration: none;
+						p {
+							font-family: @roboto-bold;
+						}
+					}
+
+					p {
+						font: 20px @roboto-light;
+						text-align: center;
+						color: @red;
+						line-height: 80px;
+					}
+
+				}
+
+				&:nth-child(3n+3) {
+					margin-right: 0;
+				}
+
+			}
+
+		}
+
+	}
+
+}

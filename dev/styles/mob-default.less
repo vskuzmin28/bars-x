@@ -1,0 +1,307 @@
+@media only screen and (min-width : 0px) and (max-width : 1024px) {
+
+	// centered big
+
+	.centered__big {
+		position: relative;
+		margin: 0 5%;
+		width: 90%;
+	}
+
+	.centered__small {
+		position: relative;
+    margin: 0 5%;
+    width: 90%;
+	}
+
+	.centered__very-big {
+		position: relative;
+    margin: 0 5%;
+    width: 90%;
+	}
+
+	.centered__main {
+		position: relative;
+    margin: 0 5%;
+    width: 90%;
+	}
+
+
+	// positions
+	
+	.left {
+		float: none;
+	}
+
+	.right {
+		float: none;
+	}
+
+	.center {
+		margin: 0 auto;
+	}
+
+
+	.no-border {
+		border: 0 !important;
+	}
+
+	// buttons
+
+	.btn {
+		display: block;
+		//font: 26px @akr-semibold;
+		color: #fff;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	// title block
+
+	.title-block {
+		margin-bottom: 54px;
+		font: 36px @roboto-bold;
+		color: @black;
+		text-align: center;
+
+	}
+
+	.btn-red {
+		display: block;
+		width: 225px;
+		height: 58px;
+		background: @red;
+		border-radius: 15px;
+		color: @white;
+		text-align: center;
+		font: 16px @roboto-light;
+		line-height: 58px;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover {
+			background: @red-light;
+			font-family: @roboto-bold;
+		}
+
+	}
+
+  // contacts
+
+  .block__contacts {
+    margin-top: 10px;
+    float: none;
+    width: 196px;
+    margin: 20px auto;
+    text-align: center;
+
+
+    p {
+      margin: 8px 0 18px 0;
+      display: block;
+      font: 16px @roboto-light;
+      color: @white;
+      height: 20px;
+
+      img {
+        margin-right: 8px;
+        display: none;
+        float: left;
+        width: 20px;
+        height: 20px;
+      }
+
+    }
+
+  }
+  
+  // phone number
+
+  .block__contacts__phone {
+    display: block;
+    font: 20px @roboto-light;
+    color: @white;
+    text-decoration: none;
+
+    span {
+      font-family: @roboto-bold;
+    }
+
+  }
+
+  // mail to
+
+  .block__contacts__mailto {
+    display: block;
+    font: 16px @roboto-light;
+    line-height: 21px;
+    color: @white;
+    text-decoration: none;
+
+    img {
+      margin-right: 8px;
+      display: none;
+      float: left;
+      width: 20px;
+      height: 20px;
+    }
+
+    span {
+      font-family: @roboto-bold;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+  }
+
+  // up page
+
+  .up-page {
+    margin-top: 0;
+    margin-right: 0;
+    float: none;
+    display: block;
+    margin: 20px auto;
+    width: 64px;
+    height: 64px;
+    background: @red url('../img/icons/icon-3.png') no-repeat 19px 19px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+      background: @red-light url('../img/icons/icon-3.png') no-repeat 19px 16px;
+    }
+
+  }
+
+  // conteiner
+
+  main {
+  	margin: 60px 0;
+  	height: auto;
+  	overflow: hidden;
+  }
+
+  .characteristics {
+    margin-top: 20px;
+    margin-bottom: 44px;
+    height: auto;
+    overflow: hidden;
+
+    ul {
+      height: auto;
+      overflow: hidden;
+
+      li {
+        float: left;
+        width: 564px;
+        display: block;
+        margin-bottom: 2px;
+        background: #eff2f4;
+        overflow: hidden;
+
+        &:nth-child(2n+2) {
+          float: right;
+        }
+
+        p {
+          margin: 10px 0 10px 10px;
+          float: left;
+          font: 16px @roboto-light;
+          color: @black;
+        }
+
+        span {
+          margin: 10px 10px 10px 0;
+          display: block;
+          float: right;
+          font: 16px @roboto-light;
+          color: @black;
+        }
+
+      }
+
+    }
+  }
+
+  // text content default
+
+  .text-content-default__body {
+    overflow: hidden;
+    height: auto;
+
+    img {
+      float: left;
+      display: block;
+      width: 245px;
+      height: 180px;
+    }
+
+  }
+
+  .text-content-default__content {
+    float: right;
+    width: 890px;
+
+    p {
+      font: 16px @roboto-light;
+      color: @black;
+    }
+
+  }
+
+  // breadcrumbs
+
+  .breadcrumbs {
+    margin-bottom: 20px;
+    height: auto;
+    overflow: hidden;
+
+    ul {
+      width: 120px;
+      float: right;
+
+      li {
+      
+        a, a:hover {
+          display: block;
+          float: left;
+          width: 24px;
+          height: 29px;
+          font: 20px @roboto-light;
+          color: @red;
+          line-height: 29px;
+          text-decoration: none;
+          border: 1px solid #fff;
+          text-align: center;
+
+          &:hover {
+            border: 1px solid @red;
+            color: @black;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  a.breadcrumbs__active,
+  a:hover.breadcrumbs__active {
+    border: 1px solid @red !important;
+    color: @black !important;
+  }
+
+  .w-100 {
+    width: 120px !important;
+  }
+
+  .w-150 {
+    width: 150px !important;
+  }
+
+}

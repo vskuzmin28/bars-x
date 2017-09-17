@@ -1,0 +1,150 @@
+@media only screen and (min-width : 1024px) {
+
+	// basket
+
+	.basket {
+		height: auto;
+		overflow: hidden;
+
+		p {
+			font: 16px @roboto-light;
+			color: @black;
+		}
+
+	}
+
+	.basket table {
+		width: 100%;
+		margin-bottom: 40px;
+
+		thead {
+			
+			height: 34px;
+			background: #eff2f4;
+
+			tr {
+				height: 34px;
+				font: 16px @roboto-bold;
+				color: @black;
+				line-height: 34px;
+				text-indent: 10px;
+			}
+
+		}
+
+		tbody {
+
+			tr {
+
+				td {
+					padding: 10px;
+					height: auto;
+					overflow: hidden;
+					vertical-align: middle;
+					font: 16px @roboto-light;
+					color: @black;
+
+					span {
+						display: block;
+						font: 14px @roboto-light;
+						color: @black;
+					}
+
+					span.basket__price {
+						font-size: 16px;
+						font-family: @roboto-bold;
+					}
+
+				}
+
+				img {
+					
+					width: 64px;
+					height: 64px;
+				}
+			}
+
+		}
+
+	}
+
+	.opt-quontity {height:30px;vertical-align:middle;}
+	.opt-quontity span {
+		margin-top: 5px;
+		display:block;
+		float:left;
+		width:28px;
+		height:28px;
+		background:@red;
+		border:0;
+		font:18px @roboto-light !important;
+		line-height:28px !important;
+		text-align:center;
+		color: @white !important;
+		cursor: pointer;
+	}
+	.opt-quontity span::selection, .product-entry .opt-quontity input[type='text']::selection {background:0;}
+	.opt-quontity span.quont-minus {border-radius:10px;}
+	.opt-quontity span.quont-plus {border-radius:10px;}
+	.opt-quontity input[type='text'] {
+		margin: 0 7px;
+		float:left;
+		width:74px;
+		height:34px;
+		border: 1px solid #8b8989;
+	}
+	.opt-quontity input[type='text'] {
+		font:20px @roboto-light;
+		text-align:center;
+		color:#8b8989;}
+	.opt-quontity p {margin-left:10px;margin-top:2px;float:left;font:14px 'pt_serifregular';color:#333;}
+
+	.basket__close {
+		display: block;
+		width: 20px;
+		height: 20px;
+		background: url('../img/icons/icon-8.png') no-repeat;
+	}
+
+	.basket__total {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		height: 60px;
+		margin-bottom: 30px;
+		float: right;
+		text-align: right;
+		
+		p {
+			font: 20px @roboto-bold;
+			color: @black;
+		}
+
+	}
+
+	.basket__buttons {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+
+		a, a:hover {
+			float: right;
+		}
+
+	}
+
+	.basket__buttons__back {
+		margin: 0 68px;
+		display: block;
+		font: 20px @roboto-regular;
+		color: @red;
+		line-height: 50px;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+
+	}
+
+}
