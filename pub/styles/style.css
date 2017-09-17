@@ -198,48 +198,55 @@ a {
   cursor: pointer;
 }
 @media only screen and (min-width: 1024px) {
-  .categories {
-    margin: 0 auto;
-    width: 1068px;
+  .card {
     height: auto;
     overflow: hidden;
-    margin-bottom: 40px;
   }
-  .categories p {
-    font: 16px 'robotolight';
+  .card h4 {
+    font: 24px 'robotobold';
     color: #000;
+    margin-bottom: 20px;
   }
-  .categories ul {
-    margin: 0 52px;
-    overflow: hidden;
+  .card__body {
     height: auto;
+    overflow: hidden;
   }
-  .categories ul li {
-    margin-bottom: 60px;
+  .card__body img {
+    display: block;
     float: left;
-    width: 234px;
-    margin-right: 130px;
+    width: 493px;
+    height: 427px;
   }
-  .categories ul li:nth-child(3n+3) {
-    margin-right: 0;
+  .card__body__content {
+    padding: 20px 0 40px 47px;
+    float: right;
+    width: 533px;
+    border-left: 1px solid #d7d7d7;
   }
-  .categories ul li p {
+  .card__body__content p {
+    margin-bottom: 20px;
     font: 20px 'robotolight';
-    color: #bf3737;
-    text-transform: uppercase;
-    text-align: center;
+    color: #000;
+    line-height: 26px;
   }
-  .categories ul li a,
-  .categories ul li a:hover {
-    display: block;
-    text-decoration: none;
+  .card__price {
+    padding-left: 6px;
+    font: 36px 'robotobold';
+    color: #283b41;
   }
-  .categories ul li a img,
-  .categories ul li a:hover img {
-    margin-bottom: 26px;
-    display: block;
-    width: 234px;
-    height: 216px;
+  .btn {
+    margin-top: 60px;
+    float: right;
+  }
+  .card .characteristics {
+    margin-top: 60px;
+  }
+  .card .characteristics ul li {
+    float: none;
+    width: 824px;
+  }
+  .card .characteristics ul li:nth-child(2n+2) {
+    background: #e7ecef;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -297,6 +304,51 @@ a {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .categories {
+    margin: 0 auto;
+    width: 1068px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  .categories p {
+    font: 16px 'robotolight';
+    color: #000;
+  }
+  .categories ul {
+    margin: 0 52px;
+    overflow: hidden;
+    height: auto;
+  }
+  .categories ul li {
+    margin-bottom: 60px;
+    float: left;
+    width: 234px;
+    margin-right: 130px;
+  }
+  .categories ul li:nth-child(3n+3) {
+    margin-right: 0;
+  }
+  .categories ul li p {
+    font: 20px 'robotolight';
+    color: #bf3737;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .categories ul li a,
+  .categories ul li a:hover {
+    display: block;
+    text-decoration: none;
+  }
+  .categories ul li a img,
+  .categories ul li a:hover img {
+    margin-bottom: 26px;
+    display: block;
+    width: 234px;
+    height: 216px;
+  }
+}
+@media only screen and (min-width: 1024px) {
   .header {
     margin-top: 22px;
     margin-bottom: 25px;
@@ -334,6 +386,14 @@ a {
   .header__call {
     margin-top: 0px;
     float: left;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .header-bg {
+    height: 190px;
+    overflow: hidden;
+    background: #f4f5f5;
+    background-size: cover;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -428,14 +488,6 @@ a {
     display: block;
     font: 16px 'robotolight' !important;
     color: #bf3737;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .header-bg {
-    height: 190px;
-    overflow: hidden;
-    background: #f4f5f5;
-    background-size: cover;
   }
 }
 @media only screen and (min-width: 1024px) {
