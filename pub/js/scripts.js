@@ -48,3 +48,7 @@ jQuery(document).ready(function($) {
             return false;
         });
     });
+
+// uppage
+
+var easeInQuad = new SmoothScroll('[data-easing="easeInQuad"]', {easing: 'easeInQuad'});
