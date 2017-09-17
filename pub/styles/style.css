@@ -129,37 +129,57 @@
     height: auto;
     overflow: hidden;
   }
-  .characteristics__body {
+  .characteristics {
     margin-top: 20px;
     margin-bottom: 44px;
     height: auto;
     overflow: hidden;
   }
-  .characteristics__body ul {
+  .characteristics ul {
+    height: auto;
+    overflow: hidden;
+  }
+  .characteristics ul li {
     float: left;
     width: 564px;
-  }
-  .characteristics__body ul li {
     display: block;
     margin-bottom: 2px;
     background: #eff2f4;
     overflow: hidden;
   }
-  .characteristics__body ul li p {
+  .characteristics ul li:nth-child(2n+2) {
+    float: right;
+  }
+  .characteristics ul li p {
     margin: 10px 0 10px 10px;
     float: left;
     font: 16px 'robotolight';
     color: #000;
   }
-  .characteristics__body ul li span {
+  .characteristics ul li span {
     margin: 10px 10px 10px 0;
     display: block;
     float: right;
     font: 16px 'robotolight';
     color: #000;
   }
-  .characteristics__body ul:last-child {
+  .text-content-default__body {
+    overflow: hidden;
+    height: auto;
+  }
+  .text-content-default__body img {
+    float: left;
+    display: block;
+    width: 245px;
+    height: 180px;
+  }
+  .text-content-default__content {
     float: right;
+    width: 890px;
+  }
+  .text-content-default__content p {
+    font: 16px 'robotolight';
+    color: #000;
   }
 }
 a,
@@ -703,23 +723,33 @@ a {
     font: 18px 'robotobold';
     color: #000;
   }
-  .service__text-content {
-    overflow: hidden;
+}
+@media only screen and (min-width: 1024px) {
+  .upholstery {
     height: auto;
+    overflow: hidden;
+    margin-bottom: 60px;
   }
-  .service__text-content img {
+  .upholstery .characteristics ul li:nth-child(3n+3+4) {
+    background: #e7ecef !important;
+  }
+  .upholstery .characteristics ul li p {
+    width: 350px;
+  }
+  .upholstery .characteristics ul li span {
+    line-height: 35px;
+  }
+  .upholstery__exapmple-works_list {
+    height: auto;
+    overflow: hidden;
+  }
+  .upholstery__exapmple-works_list li {
     float: left;
-    display: block;
-    width: 245px;
-    height: 180px;
+    width: 140px;
+    margin-right: 30px;
   }
-  .service__text-content__content {
-    float: right;
-    width: 890px;
-  }
-  .service__text-content__content p {
-    font: 16px 'robotolight';
-    color: #000;
+  .upholstery__exapmple-works_list li:last-child {
+    margin-right: 0;
   }
 }
 @media only screen and (min-width: 1024px) {

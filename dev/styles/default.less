@@ -181,21 +181,27 @@
   	overflow: hidden;
   }
 
-  .characteristics__body {
+  .characteristics {
     margin-top: 20px;
     margin-bottom: 44px;
     height: auto;
     overflow: hidden;
 
     ul {
-      float: left;
-      width: 564px;
+      height: auto;
+      overflow: hidden;
 
       li {
+        float: left;
+        width: 564px;
         display: block;
         margin-bottom: 2px;
         background: #eff2f4;
         overflow: hidden;
+
+        &:nth-child(2n+2) {
+          float: right;
+        }
 
         p {
           margin: 10px 0 10px 10px;
@@ -214,11 +220,33 @@
 
       }
 
-      &:last-child {
-        float: right;
-      }
-
     }
+  }
+
+  // text content default
+
+  .text-content-default__body {
+    overflow: hidden;
+    height: auto;
+
+    img {
+      float: left;
+      display: block;
+      width: 245px;
+      height: 180px;
+    }
+
+  }
+
+  .text-content-default__content {
+    float: right;
+    width: 890px;
+
+    p {
+      font: 16px @roboto-light;
+      color: @black;
+    }
+
   }
 
 }
