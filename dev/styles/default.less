@@ -249,4 +249,48 @@
 
   }
 
+  // breadcrumbs
+
+  .breadcrumbs {
+    margin-bottom: 20px;
+    height: auto;
+    overflow: hidden;
+
+    ul {
+      width: 120px;
+      float: right;
+
+      li {
+      
+        a, a:hover {
+          display: block;
+          float: left;
+          width: 24px;
+          height: 29px;
+          font: 20px @roboto-light;
+          color: @red;
+          line-height: 29px;
+          text-decoration: none;
+          border: 1px solid #fff;
+          text-align: center;
+
+          &:hover {
+            border: 1px solid @red;
+            color: @black;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  a.breadcrumbs__active,
+  a:hover.breadcrumbs__active {
+    border: 1px solid @red !important;
+    color: @black !important;
+  }
+
 }
