@@ -1,10 +1,10 @@
-@media only screen and (min-width : 1024px) {
+@media only screen and (min-width : 0px) and (max-width : 1024px) {
 
 	// sertificates
 
 	.sertificates {
 		margin: 0 auto;
-		width: 1068px;
+		width: auto;
 		height: auto;
 		overflow: hidden;
 		margin-bottom: 40px;
@@ -14,10 +14,16 @@
 			li {
 				margin-bottom: 36px;
 				float: left;
-				width: 320px;
-				margin-right: 49px;
+				width: 47%;
+				margin-right: 5%;
 
-				&:nth-child(3n+3) {
+				img {
+					display: block;
+					width: 100%;
+					height: auto;
+				}
+
+				&:nth-child(2n+2) {
 					margin-right: 0;
 				}
 
@@ -42,10 +48,11 @@
 			margin-left: 50px;
 			margin-right: 60px;
 			display: block;
-			float: left;
+			float: none;
 			width: 129px;
 			height: 129px;
 			border-radius: 50%;
+			margin: 20px auto;
 		}
 
 		&:last-child {
@@ -55,8 +62,9 @@
 	}
 
 	.reviews__review__content {
-		width: 920px;
-		float: left;
+		width: auto;
+		float: none;
+		text-align: center;
 
 		p {
 			font: 16px @roboto-light;
